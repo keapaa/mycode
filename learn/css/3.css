@@ -1,0 +1,18 @@
+*{
+    box-sizing:border-box;
+}
+.a{
+    display:flex;
+    border:2px solid green;
+    padding:15px 30px;
+}
+.a .ex{
+    border:2px solid green;
+    width:30%;
+    height:400px;
+    flex:0 0 auto;
+}
+.a .ab{
+    border:2px solid blue;
+    flex:1 1 auto;
+}
